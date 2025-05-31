@@ -10,8 +10,8 @@ from chat_com_openai import generate_response
 from annotated_text import annotated_text  # pip install st-annotated-text
 
 
-aai_api_key = st.secrets["assemblyai_api_key"] #  Chave de API da AssemblyAI
-openai_api_key = st.secrets["openai_api_key"] # Chave de API da OpenAI
+aai_api_key = st.secrets['assemblyai']['api_key']
+openai_api_key = st.secrets['openai']['api_key']
 
 
 language_codes = {
